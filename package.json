@@ -1,5 +1,5 @@
 {
-  "name": "hello-npm",
+  "name": "hello-npm-qontract-try",
   "version": "1.0.0",
   "description": "Hello world npm package",
   "main": "index.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sahilaug/hello-npm/issues"
   },
-  "homepage": "https://github.com/sahilaug/hello-npm#readme"
+  "homepage": "https://github.com/sahilaug/hello-npm#readme",
+  "dependencies": {
+    "download-file": "^0.1.5"
+  }
 }
