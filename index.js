@@ -1,3 +1,4 @@
+module.exports = () => {
 console.log("Hello !!")
 
 var download = require('download-file')
@@ -12,4 +13,5 @@ var options = {
 download(url, options, function(err){
     if (err) throw err
     console.log("meow")
-})
+});
+}
