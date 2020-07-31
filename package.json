@@ -1,0 +1,22 @@
+{
+  "name": "hello-npm",
+  "version": "1.0.0",
+  "description": "Hello world npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilaug/hello-npm.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "Sahil Sharma (sahilaug@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilaug/hello-npm/issues"
+  },
+  "homepage": "https://github.com/sahilaug/hello-npm#readme"
+}
