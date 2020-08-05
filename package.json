@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/sahilaug/hello-npm#readme",
   "dependencies": {
-    "download": "^8.0.0"
+    "download": "^8.0.0",
+    "exec-sh": "^0.3.4"
   }
 }
