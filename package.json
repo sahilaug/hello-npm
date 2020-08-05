@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/sahilaug/hello-npm#readme",
   "dependencies": {
-    "download-file": "^0.1.5"
+    "download": "^8.0.0"
   }
 }

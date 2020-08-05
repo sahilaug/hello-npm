@@ -1,17 +1,11 @@
 module.exports = () => {
-console.log("Hello !!")
+    const fs = require('fs');
+    const download = require('download');
+    console.log("qontract jar download starting")
+    
+    (async () => {
+        await download('https://github.com/qontract/qontract/releases/download/0.13.1/qontract.jar', 'dist');
+        console.log("qontract jar download complete")
+    })();
 
-var download = require('download-file')
- 
-var url = "https://github.com/qontract/qontract/releases/download/0.13.1/qontract.jar"
- 
-var options = {
-    directory: "./qontract/lib/test",
-    filename: "qontract.jar"
-}
- 
-download(url, options, function(err){
-    if (err) throw err
-    console.log("meow")
-});
 }
